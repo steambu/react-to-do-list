@@ -1,0 +1,70 @@
+.header {
+  text-align: center;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.filter label {
+  margin-right: 1em;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.task-text {
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0 1em 0 0;
+  align-self: center;
+  width: 300px;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+}
+
+.done-button {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  margin-right: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.done-button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+  text-align: center;
+  align-items: center;
+}
+
+.delete-button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
